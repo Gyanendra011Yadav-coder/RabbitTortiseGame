@@ -1,7 +1,11 @@
 package thread.tortoise;
 
-public class Tortoise {
-    public static void main(String [] args){
-        System.out.println("HELLO WORLD");
+import javax.swing.*;
+
+public class Tortoise implements Runnable {
+    private static final int MILESTONES = 5;
+
+
+
     }
-}
+
