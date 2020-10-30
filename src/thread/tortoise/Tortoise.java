@@ -11,7 +11,7 @@ public class Tortoise implements Runnable {
         this.Tortoise = new Thread(this, "Rabbit");
     }
 
-    public Thread getRabbit() {
+    public Thread getTortoise() {
         return Tortoise;
     }
 
