@@ -43,7 +43,7 @@ public class Rabbit implements Runnable {
                     break;
             }
             try {
-                Thread.sleep(1500L);
+                Thread.sleep(3000L);
             } catch (InterruptedException e) {
                 System.err.println("The rabbit has lost the path!");
             }
